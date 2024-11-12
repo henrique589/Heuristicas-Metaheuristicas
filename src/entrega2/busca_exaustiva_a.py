@@ -2,7 +2,7 @@ import time
 
 def permutacao(nums: list[int]):
     n = len(nums)
-    perm, solucao = [], []
+    solucao = []
 
     def backtrack():
         if len(solucao) == n:
