@@ -46,20 +46,6 @@ def gerar_vizinhos(solucao, itens, capacidade):
     return vizinhos
 
 def selecionar_melhor_vizinho(vizinhos, itens, lista_tabu, s_best, valor_s_best):
-    """
-    Seleciona o melhor vizinho, considerando a lista tabu e os critérios de aspiração.
-
-    Parâmetros:
-    - vizinhos: Lista de soluções vizinhas (vetores binários).
-    - itens: Lista de tuplas (valor, peso), representando os itens disponíveis.
-    - lista_tabu: Lista tabu atual, contendo os movimentos proibidos.
-    - s_best: Melhor solução global encontrada até agora.
-    - valor_s_best: Valor da melhor solução global.
-    
-    Retorno:
-    - melhor_vizinho: O melhor vizinho selecionado.
-    - valor_melhor_vizinho: O valor total do melhor vizinho selecionado.
-    """
     melhor_vizinho = None
     valor_melhor_vizinho = 0
     movimento_escolhido = None
