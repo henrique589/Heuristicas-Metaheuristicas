@@ -1,52 +1,52 @@
 [
     {
         "execucao": 1,
-        "melhor_custo": 8005,
-        "tempo_execucao": 0.3437209129333496
+        "melhor_custo": 8897,
+        "tempo_execucao": 0.27274441719055176
     },
     {
         "execucao": 2,
-        "melhor_custo": 8632,
-        "tempo_execucao": 0.3131742477416992
+        "melhor_custo": 8556,
+        "tempo_execucao": 0.3137340545654297
     },
     {
         "execucao": 3,
-        "melhor_custo": 8990,
-        "tempo_execucao": 0.36132097244262695
+        "melhor_custo": 8842,
+        "tempo_execucao": 0.3105137348175049
     },
     {
         "execucao": 4,
-        "melhor_custo": 8897,
-        "tempo_execucao": 0.32068371772766113
+        "melhor_custo": 8649,
+        "tempo_execucao": 0.36069440841674805
     },
     {
         "execucao": 5,
-        "melhor_custo": 9147,
-        "tempo_execucao": 0.41100358963012695
+        "melhor_custo": 8109,
+        "tempo_execucao": 0.28310179710388184
     },
     {
         "execucao": 6,
-        "melhor_custo": 8024,
-        "tempo_execucao": 0.4497814178466797
+        "melhor_custo": 8420,
+        "tempo_execucao": 0.28604865074157715
     },
     {
         "execucao": 7,
-        "melhor_custo": 8155,
-        "tempo_execucao": 0.3205864429473877
+        "melhor_custo": 8285,
+        "tempo_execucao": 0.27739858627319336
     },
     {
         "execucao": 8,
-        "melhor_custo": 8234,
-        "tempo_execucao": 0.3180215358734131
+        "melhor_custo": 8681,
+        "tempo_execucao": 0.28896045684814453
     },
     {
         "execucao": 9,
-        "melhor_custo": 8751,
-        "tempo_execucao": 0.33065366744995117
+        "melhor_custo": 8478,
+        "tempo_execucao": 0.2564420700073242
     },
     {
         "execucao": 10,
-        "melhor_custo": 8265,
-        "tempo_execucao": 0.30264711380004883
+        "melhor_custo": 7998,
+        "tempo_execucao": 0.306959867477417
     }
 ]
