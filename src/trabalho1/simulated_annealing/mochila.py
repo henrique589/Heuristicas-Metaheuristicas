@@ -2,8 +2,10 @@ import random
 import math
 import time
 from pathlib import Path
+import json
 
 TESTE_FILE = Path(__file__).parent / 'mochila_100_1000_1'
+OUTPUT_FILE = Path(__file__).parent 
 
 T0 = 1000
 SA_MAX = 100
@@ -65,13 +67,26 @@ def simulated_annealing(itens, capacidade, t0, sa_max, alpha, t_min):
         T *= alpha
     return melhor_solucao, melhor_custo
 
+def salvar_resultados(resultados):
+    with open(f'{OUTPUT_FILE}/resultados_mochila.json', "w") as jsonfile:
+        json.dump(resultados, jsonfile, indent=4)
+
 itens, capacidade = carregar_itens(TESTE_FILE)
+resultados = []
 
 for i in range(10):
     start_time = time.time()
     melhor_solucao, melhor_custo = simulated_annealing(itens, capacidade, T0, SA_MAX, ALPHA, T_MIN)
     end_time = time.time()
     tempo_execucao = end_time - start_time
+
+    resultado = {
+        "execucao": i + 1,
+        "melhor_custo": melhor_custo,
+        "tempo_execucao": tempo_execucao
+    }
+    resultados.append(resultado)
+    salvar_resultados(resultados)
 
     print(f"Execução {i + 1}:")
     print("Melhor solução:", melhor_solucao)
