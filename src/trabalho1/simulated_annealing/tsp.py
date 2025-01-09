@@ -7,9 +7,9 @@ import json
 TESTE_FILE = Path(__file__).parent / 'tsp_51'
 OUTPUT_FILE = Path(__file__).parent
 
-T0 = 1000
+T0 = 3000
 SA_MAX = 100
-ALPHA = 0.95
+ALPHA = 0.8
 T_MIN = 1e-3
 
 def distancia_total(solucao, matriz_distancia):

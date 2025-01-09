@@ -1,7 +1,7 @@
 #install.packages("jsonlite")
 #install.packages("ggplot2")
 
-setwd('C:\\Users\\inffo\\Documents\\7ªPeriodo\\H&M\\HM\\src\\trabalho1\\simulated_annealing')
+setwd('C:\\Users\\inffo\\Documents\\7ªPeriodo\\H&M\\HM\\src\\trabalho1\\grasp')
 
 #Carregando as bibliotecas
 library(jsonlite)
@@ -25,7 +25,7 @@ write.csv(resultados, "tabela_resultados_tsp.csv", row.names = FALSE)
 
 #Análise dos resultados do melhor custo de cada execução
 ggplot(resultados, aes(x = execucao, y = melhor_custo)) + 
-  geom_line(color = "blue") +
+  geom_line(color = "lightgreen") +
   geom_point(color = "orange") +
   labs(title = "Melhor Custo por Execução", x = "Execução", y = "Melhor Custo") +
   scale_x_continuous(breaks = seq(min(resultados$execucao), max(resultados$execucao), by = 1))
