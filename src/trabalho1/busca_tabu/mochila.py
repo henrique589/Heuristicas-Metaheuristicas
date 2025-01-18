@@ -69,8 +69,8 @@ def salvar_resultados(resultados):
 
 n, capacidade, itens = ler_arquivo(TESTE_FILE)
 
-ITERACOES_MAX = 100
-TAMANHO_TABU = 10
+ITERACOES_MAX = 50
+TAMANHO_TABU = 5
 PENALIDADE = 10 
 
 start_time = time.time()
