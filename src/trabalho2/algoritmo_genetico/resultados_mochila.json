@@ -1,0 +1,52 @@
+[
+    {
+        "execucao": 1,
+        "lucro_maximo": 1310.5341208025998,
+        "tempo_execucao": 1.3238575458526611
+    },
+    {
+        "execucao": 2,
+        "lucro_maximo": 1274.5095429432445,
+        "tempo_execucao": 0.6811249256134033
+    },
+    {
+        "execucao": 3,
+        "lucro_maximo": 1274.3821169461394,
+        "tempo_execucao": 0.6772828102111816
+    },
+    {
+        "execucao": 4,
+        "lucro_maximo": 1276.012485958697,
+        "tempo_execucao": 0.6716303825378418
+    },
+    {
+        "execucao": 5,
+        "lucro_maximo": 1208.80335681724,
+        "tempo_execucao": 0.6679768562316895
+    },
+    {
+        "execucao": 6,
+        "lucro_maximo": 1265.116987179487,
+        "tempo_execucao": 0.6687755584716797
+    },
+    {
+        "execucao": 7,
+        "lucro_maximo": 1230.4533305921054,
+        "tempo_execucao": 0.6712043285369873
+    },
+    {
+        "execucao": 8,
+        "lucro_maximo": 1282.0952335918291,
+        "tempo_execucao": 0.6707234382629395
+    },
+    {
+        "execucao": 9,
+        "lucro_maximo": 1277.5463546775022,
+        "tempo_execucao": 0.6677556037902832
+    },
+    {
+        "execucao": 10,
+        "lucro_maximo": 1289.1613216191452,
+        "tempo_execucao": 0.6665427684783936
+    }
+]
